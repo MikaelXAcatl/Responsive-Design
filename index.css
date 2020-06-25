@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+
+body{
+     background-color:beige;}
+
+/* @media (max-width: 800px)
+  {body{background-color: salmon;}
+    @media (max-width: 500px)
+    {body{background-color:black;}} */
+
+h1{display:flex;
+   justify-content: center;
+   font-size: 4rem;
+   color: lightblue;
+   font-family:arial;
+   margin: 1rem;
+
+}
+nav {display:flex;
+   justify-content: center;
+  flex-direction: row; 
+  margin: 2rem;
+    font-family:arial;
+}
+    /* @media(max-width:500px)
+    {nav{flex-direction: column;}} */
+
+
+a{border: 1rem solid lightgreen;
+    padding: 1rem;
+    color: lightskyblue;
+    background-color: slategray;
+    text-decoration: none;   
+
+}
+a:hover{background-color:yellow;}
+
+h2{display: flex;
+   justify-content: center;
+   font-size: 2.5rem;
+   font-family:arial;
+   color:lightgreen;
+   margin:2rem;
+}
+     /* @media(max-width:800px)
+     {h2{font-size:2rem;}}
+     @media(max-width:500px)
+     {h2{font-size: 1.5rem;}} */
+
+ p{display: flex;
+   font-family:arial;
+   color: lightskyblue;
+   margin:2rem}
+
+     /* @media(max-width:800px)
+     {p{font-size:1.10rem;}}
+     @media(max-width:500px)
+     {p{font-size: 1rem;}} */
+
+  container{object-fit:none;
+/*     object-position: 6rem 6rem; */
+   }
+
+.image{
+    display: flex;
+    width: 50rem;
+    height: 20rem;
+    background-size: 50rem 50rem;
+    border: 5px;
+    padding-bottom: 1.5rem;
+    flex-wrap: nowrap;
+/*     object-position: 100% 100%; */
+
+}
+
+section-two{    
+    font-family:arial;
+    color:lightskyblue;
+    margin: 1rem;
+    font-weight:bold;} 
+
+    .images{display:flex; 
+    justify-content: space-around;
+    align-items: center;} 
+
+    .picture-text{
+    font-family:arial;
+    color:lightskyblue;
+    margin: 2rem;
+    font-weight:bold;}
+
+     /* @media(max-width:800px)
+     {.picture-text{font-size:.90rem;}}
+     @media(max-width:500px)
+     {.pixture-text{font-size: .75rem;}} */
+
+
+footer{display:flex;
+    background-color:lightblue;
+    font-family:arial;
+    justify-content:center; 
+    border: .25rem solid lightgreen;
+    padding: 4rem;
+}
+a{
+  border: .25rem solid lightgreen;
+  padding: .25rem;
+  width: 6rem; 
+  height: 1rem;  
+  color: lightskyblue;
+  background-color: slategray;
+    text-decoration: none;
+} 
+  
+
+
